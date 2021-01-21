@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <title>stopWatch</title>
+        <link rel="stylesheet" href="./style.css">
+
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="time" id="time">
+                
+            </div>
+        </div>
+            <br>
+                <br>
+                <span class="stop" id="stop">
+                <button class="button stop1" onclick="removeInt()">stop</button>
+                </span>
+                <span class="start" id="start">
+                <button class="button start1" onclick="startInt()">start</button>
+                </span>
+                <span class="lap" id="lap">
+                <button class="button lap" onclick="lap()">lap</button>
+                </span>
+                <span class="reset" id="reset">
+                <button class="button reset" onclick="resetTimer()">reset</button>
+                </span>
+                <br><br>
+                <span class="laps" id="laps"></span>
+        <script src="./stopWatch.js"></script>
+    </body>
+</html>
